@@ -1,0 +1,8 @@
+USE [master]
+GO
+CREATE LOGIN [interface_svc] WITH PASSWORD=N'INTERface' MUST_CHANGE, DEFAULT_DATABASE=[master], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+GO
+USE [master]
+GO
+CREATE USER [interface_svc] FOR LOGIN [interface_svc]
+GO
