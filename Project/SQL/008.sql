@@ -1,0 +1,1 @@
+select DATEDIFF(day,'1980/03/15', '2022/02/25') as DateDiff

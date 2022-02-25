@@ -1,0 +1,1 @@
+select cast(GETDATE() as Date)
